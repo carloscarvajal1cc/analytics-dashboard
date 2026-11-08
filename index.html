@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Monthly Analytics Report</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -10,12 +11,23 @@
   <h1>Monthly Analytics Report</h1>
   <p>Sample data for practice. Replace with real numbers later.</p>
 
-  <div class="summary-box">
-    <div class="summary-label">Total Revenue</div>
-    <div class="summary-value">$435,000</div>
+  <section class="cards">
+  <div class="card">
+    <p class="card-label">Total Revenue</p>
+    <p class="card-value">$325,000</p>
   </div>
+  <div class="card">
+    <p class="card-label">Total Target</p>
+    <p class="card-value">$305,000</p>
+  </div>
+  <div class="card">
+    <p class="card-label">Regions On Track</p>
+    <p class="card-value">2 of 3</p>
+  </div>
+</section>
 
   <h2>Sales by Region</h2>
+  <div class="panel"></div>
   <table>
     <thead>
       <tr>
@@ -52,6 +64,7 @@
       </tr>
     </tbody>
   </table>
+  </div>
 
 </body>
 </html>

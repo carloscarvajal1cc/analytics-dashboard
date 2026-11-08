@@ -80,3 +80,54 @@ tr:hover {
   border-radius: 12px;
   font-weight: bold;
 }
+
+:root {
+  --brand: #1a3c6e;
+  --card-bg: white;
+  --radius: 10px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin: 24px 0;
+}
+
+.card {
+  background-color: var(--card-bg);
+  border-radius: var(--radius);
+  padding: 20px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  border-top: 4px solid var(--brand);
+}
+
+.card-label {
+  margin: 0;
+  font-size: 14px;
+  color: #666;
+}
+
+.card-value {
+  margin: 8px 0 0;
+  font-size: 28px;
+  font-weight: bold;
+  color: var(--brand);
+}
+
+.panel {
+  background-color: var(--card-bg);
+  border-radius: var(--radius);
+  padding: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.panel table {
+  box-shadow: none;
+}
+
+@media (max-width: 600px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
