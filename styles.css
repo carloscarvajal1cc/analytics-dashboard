@@ -11,6 +11,29 @@ h1 {
   color: #2e7d32;
 }
 
+.summary-box {
+  background-color: #1a3c6e;
+  color: white;
+  border-radius: 8px;
+  padding: 20px 24px;
+  margin-bottom: 24px;
+  display: inline-block;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.summary-label {
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  opacity: 0.8;
+  margin-bottom: 4px;
+}
+
+.summary-value {
+  font-size: 32px;
+  font-weight: bold;
+}
+
 table {
   width: 100%;
   border-collapse: collapse;
