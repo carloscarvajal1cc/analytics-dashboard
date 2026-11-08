@@ -72,3 +72,11 @@ tr:hover {
   border-radius: 12px;
   font-weight: bold;
 }
+
+.at-risk {
+  color: #ef6c00;
+  background-color: #fff3e0;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-weight: bold;
+}
